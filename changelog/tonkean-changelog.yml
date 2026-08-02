@@ -1,0 +1,33 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.tonkean.com/en/release-notes.html
+scheme: monthly dated release notes (no semantic API versioning; platform releases grouped by month with New Features and Bug Fixes per product area)
+areas: [Solutions Studio, Tonkean Standard Solutions, Board Management & Platform, User Management, Tonkean AI, Enterprise Components]
+entries:
+  - version: 2026-06
+    date: '2026-06'
+    breaking: false
+    highlights:
+      - Configurable folder for thread reply attachments in Send Notification actions
+      - Item Family Graph in Module Event History for debugging item families
+      - Search widget filters for narrowing results by workflow-relevant fields
+      - Conditional formatting and previous/next drilldown navigation for data source items tables
+      - Native field validation for number inputs and line items in interfaces
+  - version: 2026-05
+    date: '2026-05'
+    breaking: false
+    highlights:
+      - Additional runtime details in Module Event History showing how an agent executed
+      - UI-only formula fields for interface widgets
+      - Request and response logs for AI actions in Module Event History
+      - Requester information added to Module Event History
+      - Optional inclusion of archived items in CSV exports
+  - version: 2026-04
+    date: '2026-04'
+    breaking: false
+    highlights:
+      - CC and BCC support for email Send Notification actions
+      - Module Event History troubleshooting enhancements
+      - Configurable card width for dropdown field options
+      - Hide workspace app pages dynamically with Boolean expressions
+      - Dropdown-style column filters for Data Source Items widgets

@@ -1,0 +1,35 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.tonkean.com/security + https://docs.tonkean.com/en/index-en.html
+note: >-
+  Tonkean publishes no public API contract, so conformance is asserted from
+  documented platform capabilities and the published compliance program,
+  not from an OpenAPI document.
+standards:
+  - id: soc2-type2
+    conforms: true
+    evidence: "https://www.tonkean.com/security — 'Tonkean is SOC 2 Type 2 compliant and independently audited' (AICPA Trust Services Principles)"
+  - id: iso27001
+    conforms: true
+    evidence: "https://www.tonkean.com/security — ISO/IEC 27001:2022 certification for Information Security Management"
+  - id: hipaa
+    conforms: true
+    evidence: "https://www.tonkean.com/security — HIPAA posture for healthcare customers"
+  - id: gdpr
+    conforms: true
+    evidence: "https://www.tonkean.com/security — 'GDPR Ready: Tonkean adheres to the General Data Protection Regulation'"
+  - id: saml2
+    conforms: true
+    evidence: "https://docs.tonkean.com/en/administer/manage-users/connect-an-identity-provider/configure-saml-authentication.html — SAML SSO for platform sign-in"
+  - id: oidc
+    conforms: true
+    evidence: "https://docs.tonkean.com/en/administer/manage-users/connect-an-identity-provider/set-up-authentication-with-openid-connect--oidc-.html — OpenID Connect sign-in (Okta, Ping Identity guides published)"
+  - id: scim
+    conforms: true
+    evidence: "https://docs.tonkean.com/en/administer/manage-users/connect-an-identity-provider/connect-a-custom-scim-application.html — SCIM user provisioning via custom SCIM application"
+  - id: oauth2
+    conforms: false
+    evidence: "No public OAuth 2.0 authorization surface documented for third-party API consumers"
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: "No public API error contract published"

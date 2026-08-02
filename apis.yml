@@ -1,8 +1,26 @@
 aid: tonkean
 name: Tonkean
-description: 'Tonkean is a company surfaced as a portfolio company of accel, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Tonkean is an enterprise AI process-orchestration platform that acts as an
+  "AI front door" for internal service teams. Procurement, legal, and IT/HR
+  teams use its no-code process builder, proactive AI agents, and 100+
+  data-source integrations to orchestrate intake, triage, and fulfillment
+  across existing enterprise systems. Tonkean publishes no public developer
+  API; data flows in and out through documented inbound/outbound webhook
+  connections and no-code custom data sources. Backed by Accel and Lightspeed
+  Venture Partners.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/63b7742dc7dee53201dbc282/63c767d3c7ba4a37741cb4dc_logo-big-256.png
 url: https://raw.githubusercontent.com/api-evangelist/tonkean/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +30,23 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 9
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Ai
+- AI
+- Process Orchestration
+- Workflow Automation
+- No-Code
+- Enterprise
+- Procurement
+- Legal
+- Intake
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +56,41 @@ maintainers:
 common:
 - type: Website
   url: https://tonkean.com/
+- type: Documentation
+  url: https://docs.tonkean.com/en/index-en.html
+- type: Blog
+  url: https://www.tonkean.com/blog
+- type: Pricing
+  url: https://www.tonkean.com/pricing
+- type: SignUp
+  url: https://www.tonkean.com/get-started
+- type: Support
+  url: https://www.tonkean.com/community
+- type: TermsOfService
+  url: https://www.tonkean.com/terms
+- type: PrivacyPolicy
+  url: https://www.tonkean.com/privacy
+- type: GitHubOrganization
+  url: https://github.com/Tonkean
+- type: StatusPage
+  url: https://status.tonkean.com/
+- type: ChangeLog
+  url: changelog/tonkean-changelog.yml
+- type: Lifecycle
+  url: lifecycle/tonkean-lifecycle.yml
+- type: Webhooks
+  url: asyncapi/tonkean-webhooks.yml
+- type: WellKnown
+  url: well-known/tonkean-well-known.yml
+- type: Packages
+  url: packages/tonkean-packages.yml
+- type: LLMsTxt
+  url: llms/tonkean-llms.txt
+- type: Conformance
+  url: conformance/tonkean-conformance.yml
+- type: Compliance
+  url: https://www.tonkean.com/security
+- type: TrustCenter
+  url: security/tonkean-trust-center.yml
+- type: DomainSecurity
+  url: security/tonkean-domain-security.yml

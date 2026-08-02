@@ -1,0 +1,33 @@
+generated: '2026-07-21'
+method: searched
+source: npm registry search + github.com/Tonkean org review (PyPI, NuGet, RubyGems, Packagist, crates.io searched — no results)
+note: >-
+  Tonkean publishes no API client SDKs. The first-party packages below are
+  open-source utilities and internal tooling published to npm by Tonkean
+  engineers — none is a client library for a Tonkean API, so no SDKs
+  pointer is emitted.
+packages:
+  - language: javascript
+    registry: npm
+    name: angulareact
+    url: https://www.npmjs.com/package/angulareact
+    install: npm install angulareact
+    official: true
+    api_client: false
+    description: A way to seamlessly integrate React and AngularJS (Tonkean OSS, github.com/Tonkean/angulareact)
+  - language: javascript
+    registry: npm
+    name: tonkean-tcltext
+    url: https://www.npmjs.com/package/tonkean-tcltext
+    install: npm install tonkean-tcltext
+    official: true
+    api_client: false
+    description: Tonkean design-system component package
+  - language: javascript
+    registry: npm
+    name: "@tonkean-public/pulumi-elasticstack"
+    url: https://www.npmjs.com/package/@tonkean-public/pulumi-elasticstack
+    install: npm install @tonkean-public/pulumi-elasticstack
+    official: true
+    api_client: false
+    description: Pulumi provider for Elastic Stack (Tonkean OSS, github.com/Tonkean/pulumi-elasticstack)

@@ -1,0 +1,29 @@
+# Tonkean
+
+> Tonkean is an enterprise AI process-orchestration platform ("the AI front door for internal service teams"). Procurement, legal, and IT/HR service teams use its no-code process builder, AI agents, and 100+ data-source integrations to orchestrate intake, triage, and fulfillment across existing enterprise systems. Tonkean does not publish a public developer API; ingress is via webhook connections and no-code custom data sources.
+
+## Platform
+
+- [Tonkean](https://www.tonkean.com/): Company website
+- [Platform overview](https://www.tonkean.com/platform): Process orchestration platform
+- [AI Front Door](https://www.tonkean.com/platform/ai-front-door): AI intake experience
+- [AI Agents](https://www.tonkean.com/platform/ai-agents): Proactive enterprise AI agents
+- [Data source integrations](https://www.tonkean.com/platform/data-source-integrations): 100+ native connectors
+- [Pricing](https://www.tonkean.com/pricing): Plans and pricing
+
+## Docs
+
+- [Tonkean Docs](https://docs.tonkean.com/en/index-en.html): Platform documentation (get started, design and customize, administer, data sources, reference)
+- [Create a webhook connection](https://docs.tonkean.com/en/data-sources/connect-custom-data-sources/create-a-webhook-connection.html): Push data into Tonkean via webhooks
+- [Create no-code data sources](https://docs.tonkean.com/en/data-sources/create-no-code-data-sources/configure-authentication.html): Connect custom APIs as data sources
+- [Release notes](https://docs.tonkean.com/en/release-notes.html): Dated platform changelog
+- [Security and data](https://docs.tonkean.com/en/resources/security-and-data.html): Architecture, data retention, permissions
+
+## Operations
+
+- [Status page](https://status.tonkean.com/): Tonkean service status
+- [Security](https://www.tonkean.com/security): SOC 2 Type 2, ISO/IEC 27001:2022, HIPAA, GDPR
+- [Terms of Service](https://www.tonkean.com/terms)
+- [Privacy Policy](https://www.tonkean.com/privacy)
+- [GitHub](https://github.com/Tonkean): Open-source utilities (no API SDKs)
+- [Blog](https://www.tonkean.com/blog)

@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.tonkean.com/ + https://docs.tonkean.com/en/release-notes.html
+status_page: https://status.tonkean.com/
+status_page_vendor: Atlassian Statuspage
+versioning:
+  scheme: continuous platform releases, documented in monthly release notes
+  docs: https://docs.tonkean.com/en/release-notes.html
+deprecation:
+  policy_url: null
+  sunset_header: null
+  note: No public deprecation policy or RFC 8594 Sunset/Deprecation header support is published (no public API surface to version).
+sla:
+  url: null
+  note: No public SLA published; uptime commitments are handled in enterprise contracts.
+deprecated_operations: []

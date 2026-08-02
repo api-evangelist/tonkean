@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.tonkean.com/en/data-sources/connect-custom-data-sources/create-a-webhook-connection.html
+type: Webhooks
+note: >-
+  Tonkean publishes no AsyncAPI document. Its documented event surface is
+  the webhook connection layer of the platform's data-source system, which
+  supports both directions. No event catalog (named event types) is
+  published — payloads are whatever the connected application sends.
+webhooks:
+  direction: bidirectional
+  inbound:
+    description: >-
+      A third-party application or external system sends data to Tonkean via a
+      per-data-source webhook URL, providing near-real-time data updates
+      without polling. Used to connect and sync data with virtually any
+      third-party application that supports outbound webhooks.
+    payload_formats: [application/json, application/xml]
+    payload_shapes: [JSON object, array of JSON objects, XML]
+    authentication: "None — docs state 'No authentication headers are needed'; the webhook URL is the credential"
+    field_mapping: "Received payloads are mapped to Tonkean items; `id` (unique ID from the source application) and `title` field paths must be mapped"
+    setup: "Enterprise Components > New Data Source > Cloud Application (Custom Source) or New Custom Source > copy webhook URL into the external application"
+  outbound:
+    description: >-
+      Tonkean sends data to a third-party application or external system as
+      part of module workflows (documented as the outbound webhook type of
+      the data-source webhook system).
+docs:
+  - https://docs.tonkean.com/en/data-sources/connect-custom-data-sources/create-a-webhook-connection.html
+  - https://docs.tonkean.com/en/data-sources/create-no-code-data-sources/create-entities/set-up-a-webhook.html

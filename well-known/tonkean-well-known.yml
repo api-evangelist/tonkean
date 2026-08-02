@@ -1,0 +1,37 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of /.well-known/ endpoints
+note: >-
+  No /.well-known/ discovery documents are published on any Tonkean host.
+  app.tonkean.com 301-redirects all paths to tracks.tonkean.com, which
+  returns 403; docs.tonkean.com (Paligo-hosted) returns 403 for unknown
+  paths. Absence recorded as valid probe data.
+hosts:
+  - host: https://tonkean.com
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /.well-known/ai-plugin.json, status: 404}
+  - host: https://www.tonkean.com
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /.well-known/ai-plugin.json, status: 404}
+  - host: https://app.tonkean.com
+    documents:
+      - {path: /.well-known/security.txt, status: 301, final_status: 403, redirects_to: https://tracks.tonkean.com/.well-known/security.txt}
+      - {path: /.well-known/openid-configuration, status: 301, final_status: 403, redirects_to: https://tracks.tonkean.com/.well-known/openid-configuration}
+      - {path: /.well-known/oauth-authorization-server, status: 301}
+      - {path: /.well-known/api-catalog, status: 301}
+      - {path: /.well-known/ai-plugin.json, status: 301}
+  - host: https://docs.tonkean.com
+    documents:
+      - {path: /.well-known/security.txt, status: 403}
+      - {path: /.well-known/openid-configuration, status: 403}
+      - {path: /.well-known/oauth-authorization-server, status: 403}
+      - {path: /.well-known/api-catalog, status: 403}
+      - {path: /.well-known/ai-plugin.json, status: 403}
