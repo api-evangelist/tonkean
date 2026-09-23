@@ -1,0 +1,31 @@
+# Front Door AI Index — tonkean — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: tonkean
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: tonkean.com
+  final_host: www.tonkean.com
+  ownership: own
+  owner: tonkean
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 33
+  host_score: 33
+  density: 25.92
+  words: 1273
+  tiers:
+    agentic: 8
+    core: 25
+    model: 0
+  ambiguous: 23
+  top_terms:
+    AI: 25
+    agent: 20
+    agentic: 6
+    automation: 2
+    AI agent: 1
+    copilot: 1
+    intelligence: 1
