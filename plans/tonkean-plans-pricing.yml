@@ -1,0 +1,24 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.tonkean.com/pricing
+sources:
+- https://www.tonkean.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: Tonkean-hosted multi-tenant is included. For customers on the Enterprise plan and for additional
+    costs, we also offer single-tenant dedicated, customer cloud-hosted, and customer-hosted on-prem.
+published: false
+note: No numeric price is published on the pricing page; Pricing page describes custom quotes based on
+  Monthly Tracked Users (MTUs); no numeric prices shown. Hosting options include Tonkean-hosted multi-tenant
+  (included) plus single-tenant/customer-hosted on-prem for additional costs on Enterprise plan.
+plan_count: 0
+plans: []
