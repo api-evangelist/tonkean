@@ -64,6 +64,104 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Tonkean is a company surfaced as a portfolio company of accel, lightspeed-venture-partners and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+Tonkean is an enterprise AI process-orchestration platform that acts as an "AI front door" for internal service teams. Procurement, legal, and IT/HR teams use its no-code process builder, proactive AI agents, and 100+ data-source integrations to orchestrate intake, triage, and fulfillment across existing enterprise systems. Tonkean publishes no public developer API; data flows in and out through documented inbound/outbound webhook connections and no-code custom data sources. Backed by Accel and Lightspeed Venture Partners.
 
-Backed by: accel, lightspeed-venture-partners — https://tonkean.com/
+**Areas:** Company · Artificial Intelligence · Process Orchestration · Workflow Automation · No-Code · Enterprise · Procurement · Legal · Intake
+
+## Tonkean on APIs.io
+
+Everything profiled for Tonkean is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tonkean/](https://apis.io/providers/tonkean/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Tonkean Webhooks](https://apis.io/asyncapis/tonkean/tonkean-webhooks/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Tonkean Domain Security](https://apis.io/security/tonkean/tonkean-domain-security/)
+- [Tonkean Trust Center](https://apis.io/security/tonkean/tonkean-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Tonkean Plans Pricing](https://apis.io/plans/tonkean/tonkean-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://tonkean.com/)
+- [Documentation](https://docs.tonkean.com/en/index-en.html)
+- [Pricing](https://www.tonkean.com/pricing)
+- [Sign up](https://www.tonkean.com/get-started)
+- [Support](https://www.tonkean.com/community)
+- [Blog](https://www.tonkean.com/blog)
+- [Compliance](https://www.tonkean.com/security)
+- [Terms of service](https://www.tonkean.com/terms)
+- [Privacy policy](https://www.tonkean.com/privacy)
+- [GitHub](https://github.com/Tonkean)
+- [Status](https://status.tonkean.com/)
+
+## API Evangelist rating
+
+**Kin Score 40.7** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 44.2 |
+| Contract governance | 18.2 |
+| Operational transparency | 42.1 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 60.5 |
+
+**Agent readiness 17.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 21.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tonkean/](https://apis.io/providers/tonkean/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Tonkean: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tonkean/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
